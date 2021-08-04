@@ -8,6 +8,8 @@ public class AlienSpringBootTutorialApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AlienSpringBootTutorialApplication.class, args);
+		
+		System.out.println("Here you go, first statement..");
 	}
 
 }
