@@ -1,5 +1,10 @@
 package com.alien.demo;
 
+import org.springframework.stereotype.Component;
+
+//Learn difference between component bean
+
+@Component
 public class Alien {
 	private int aid;
 	private String aname;
@@ -23,6 +28,10 @@ public class Alien {
 	}
 	public void setAtech(String atech) {
 		this.atech = atech;
+	}
+	
+	public void show() {
+		System.out.println("Printing from show function");
 	}
 	
 }
